@@ -38,7 +38,8 @@ namespace TestBot
             {
                 x.LogLevel = LogSeverity.Info;
                 x.LogHandler = Log;
-            });                             
+            });
+                                         
            
             discord.ExecuteAndWait(async () =>
             {
